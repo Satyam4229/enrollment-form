@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background: rgb(179, 217, 255);
+  }
+  
+  .Container>h1 {
+    text-align: center;
+    margin: 20px 0 20px 0;
+    font-size: 40px;
+  }
+  
+  .enrollment {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 20px;
+    padding: 10px;
+  }
+  
+  .enrollment>input {
+    padding: 10px;
+    margin: 15px 10px;
+    margin-right: 100px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+  }
+  
+  label {
+    font-size: 18px;
+  }
+  
+  .name {
+    display: flex;
+  }
+  
+  .custom-file-input::-webkit-file-upload-button {
+    visibility: hidden;
+  }
+  
+  .custom-file-input::before {
+    content: 'Select Image';
+    display: inline-block;
+    background: white;
+    border-radius: 8px;
+    padding: 12px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    width: 50%;
+  }
+  
+  .gender, .skills {
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+    cursor: pointer;
+  }
+  
+  p {
+    margin-right: 10px;
+  }
+  
+  input[type=radio], input[ type=checkbox] {
+    transform: scale(1.3);
+    margin: 10px 10px;
+  }
+  
+  .skills>label, .gender>label {
+    padding: 0px 10px;
+  }
+  
+  .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 10px 20px;
+    width: 25%;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    background: rgb(61, 59, 59);
+  }
+  
+  .button:active {
+    transform: translateY(4px);
+  }
+  
+  .main {
+    display: flex;
+  }
+  
+  .left {
+    width: 50%;
+  }
+  
+  .right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+  }
+  
+  .Vertical_line {
+    border-left: 4px solid rgb(201, 6, 6);
+  }
+  
+  .Enrolled {
+    margin-top: 2rem;
+  }
+  
+  .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    border: 2px solid rgb(226, 111, 117);
+    padding: 20px 30px;
+    text-align: center;
+    background-color: rgb(163, 245, 167);
+  }
+  
+  .image>img {
+    width: 120px;
+    margin: 10px;
+  }
+  
+  .title {
+    font-size: 20px;
+    margin: 7px;
+  }
+  
+  .text {
+    margin: 10px;
+  }
